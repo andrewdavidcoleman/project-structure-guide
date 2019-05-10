@@ -314,10 +314,10 @@ const ProjectStructureExample_Shared = {
 ```
 
 ### CSS:
-* For every view in the Views directory, there should be a corresponding javascript file in the appropriate subdirectory of the Scripts folder.
+* For every view in the Views directory, there should be a corresponding CSS file in the appropriate subdirectory of the Content folder.
 * This file will contain any view specific styles.
 ```CSS
-.my-button{
+#NewFeatureParentContainer .my-button{
     background-color: lavenderblush;
 }
 ```
@@ -329,9 +329,9 @@ const ProjectStructureExample_Shared = {
 /*===========================================================================================================================
 1) Anything added to this style sheet must approved and documented. Include above your style a comment section
    with a thorough description of what this style does and how to apply it.
-2) Styles here should be very spefic and widely applicable i.e. widely used button styles, modal headers, etc. If the
+2) Styles here should be very specific and widely applicable i.e. widely used button styles, modal headers, etc. If the
    class is meant to be used in tandem with a shared js, put that in a separate directory i.e. ycDropdown/ycDropdown.css
-3) All styles in this stylesheet sould be prefixed with ProjectName_ i.e. .ProjectName_standard-button.
+3) All styles in this stylesheet should be prefixed with ProjectName_ i.e. .ProjectName_standard-button.
 ===========================================================================================================================*/
 
 /*Applies standard size, color, shape, and cursor style to button. Must
