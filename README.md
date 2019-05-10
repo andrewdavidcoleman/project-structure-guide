@@ -1,24 +1,4 @@
-
-Conversation opened. 1 unread message.
-
-Skip to content
-Using Gmail with screen readers
-
-2 of 7,224
-README
-Inbox
-x
-
-Andrew Coleman
-Attachments
-10:45 AM (1 hour ago)
-to Andrew, me
-
-
-
-2 Attachments
-
-﻿# .Net MVC UI structure
+# .Net MVC UI structure
 
 ### Overview:
 * This article presents a template for file and directory structure, naming conventions, and code patterns for helpful organization of a .Net MVC application UI. It may also serve as a guided walkthrough for addition  of a new feature or portion of an application.
@@ -378,7 +358,3 @@ button.ProjectStructureExample_standard-button {
     width: 70px;
 }
 ```
-
-
-README.md
-Displaying README.md.
