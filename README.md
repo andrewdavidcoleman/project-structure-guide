@@ -19,15 +19,6 @@
 
 ![File structure](ProjectExampleFileStructure.jpg)
 
-* Let's illustrate the specifics of this structure and the code patterns used by following the process of adding a new feature to our sample application.
-* Let's say there's a page in our application with a simple UI layout, broken into 3 columns that will contain various features and functionalities:
-
-![New feature blank](NewFeatureBlank.jpg)
-
-* We want to add a new feature that will be housed in the section 1 column.
-
-![New feature place](NewFeature.jpg)
-
 ### Controller:
 
 * Our controller is broken up into 2 regions: Views, which will contain ActionResult methods that will render our view html, and Actions, which will contain the calls to trigger any CRUD operations, and return a JsonResult.
