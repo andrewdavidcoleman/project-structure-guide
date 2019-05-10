@@ -82,23 +82,21 @@ namespace ProjectStructureExample.Services.NewFeature
         {
             NewFeatureParentModel model = new NewFeatureParentModel();
 
-            SomeEntity someEntity = new SomeEntity();
             MethodResult result = new MethodResult();
             using(SomeBR br = new SomeBR())
             {
-                someEntity = br.GetSomeEntity(arg);
+                SomeEntity someEntity = br.GetSomeEntity(arg);
+                model.Id = someEntity.Id;
+                model.Description = someEntity.Description;
             }
 
             SomeOtherEntity someOtherEntity = new SomeOtherEntity();
             result = new MethodResult();
             using(AnotherBR br = new AnotherBR())
             {
-                someOtherEntity = br.GetSomeOtherEntity(arg);
+                SomeOtherEntity someOtherEntity = br.GetSomeOtherEntity(arg);
+                model.OtherProp = someOtherEntity.OtherProp;
             }
-
-            model.Id = someEntity.Id;
-            model.Description = someEntity.Description;
-            model.OtherProp = someOtherEntity.OtherProp;
 
             return model;
         }
