@@ -54,8 +54,6 @@ public JsonResult CreateSomething(int param1, string param2)
 * Every view in the Views directory should have a corresponding model by the same name, suffixed with "Model".
 * This model is to be used specifically for passing to it's corresponding view and nothing else. No models should be shared between views, even partials.
 
-**===IMAGE===**
-
 ```C#
 namespace ProjectStructureExample.Models.NewFeature
 {
